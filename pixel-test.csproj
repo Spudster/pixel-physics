@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>pixel_test.TestProgram</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -43,7 +46,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="Examples\ChaosGame.cs" />
+    <Compile Include="Examples\Dodger.cs" />
+    <Compile Include="Examples\GameOfLife.cs" />
+    <Compile Include="Examples\Matrix.cs" />
+    <Compile Include="Examples\PerlinNoise2.cs" />
+    <Compile Include="Examples\PerlinNoise.cs" />
+    <Compile Include="Examples\WireWorld.cs" />
+    <Compile Include="TestProgram.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
