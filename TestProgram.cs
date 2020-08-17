@@ -22,24 +22,21 @@ namespace pixel_test
             test.Start();
         }
 
-
-
-
         // Called once per frame, this is where the rendering happens
         public override void OnUpdate(float elapsed)
         {
             var pr = Pixel.RandomAlpha();
 
 
-            var p1 = new Point(50,50);
-            var p2 = new Point(80,50);
+            var p1 = new Point(50, 50);
+            var p2 = new Point(80, 50);
             var p3 = new Point(0, 50);
 
-   
+
             Draw(50, 50, pr);
             DrawLine(p1, p2, pr);
-            DrawCircle(p1,10,pr);
-            DrawText(p3,"hello world", pr );
+            DrawCircle(p1, 10, pr);
+            DrawText(p3, "hello world", pr);
         }
 
     }
