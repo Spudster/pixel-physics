@@ -46,15 +46,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Examples\ChaosGame.cs" />
-    <Compile Include="Examples\Dodger.cs" />
-    <Compile Include="Examples\GameOfLife.cs" />
-    <Compile Include="Examples\Matrix.cs" />
-    <Compile Include="Examples\PerlinNoise2.cs" />
-    <Compile Include="Examples\PerlinNoise.cs" />
-    <Compile Include="Examples\WireWorld.cs" />
+    <Compile Include="examples\ChaosGame.cs" />
+    <Compile Include="examples\Dodger.cs" />
+    <Compile Include="examples\GameOfLife.cs" />
+    <Compile Include="examples\Matrix.cs" />
+    <Compile Include="examples\PerlinNoise2.cs" />
+    <Compile Include="examples\PerlinNoise.cs" />
+    <Compile Include="examples\WireWorld.cs" />
     <Compile Include="TestProgram.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="utilities\Pixel-Utilities.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
